@@ -1,0 +1,29 @@
+{
+  "name": "candace",
+  "version": "0.1.0-rc.0",
+  "description": "Superior CLI tool for the Jasmine framework",
+  "license": "MIT",
+
+  "author": {
+    "name": "denim2x",
+    "email": "denim2x@cyberdude.com",
+    "url": "http://denim2x.github.io"
+  },
+  "keywords": [
+    "bdd",
+    "tdd",
+    "jasmine",
+    "test",
+    "cli"
+  ],
+
+  "bin": "index.js",
+  "repository": "https://github.com/denim2x/candace",
+
+  "dependencies": {
+    "jasmine-core": "2.4.*",
+    "jasmine-reporters": "2.1.*",
+    "lodash": "^3.10.1",
+    "parse-cli-arguments": "1.0.*"
+  }
+}
